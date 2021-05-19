@@ -1,0 +1,95 @@
+.battery-log1,
+.battery-log2,
+.battery-log3,
+.battery-log4,
+.battery-log5,
+.battery-log6,
+.battery-log7,
+.battery-log8 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.bimbo_blue {
+  text-align: center;
+  width: 65%;
+  background-color: #0033a0;
+  color: white;
+  border-radius: 15px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.end_message {
+  width: 95%;
+  margin-bottom: 18rem;
+}
+
+.figures {
+  background: rgba(255, 255, 255, 0.6);
+  width: 80%;
+  border-radius: 15px;
+  color: #0033a0;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-bimbo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: -55px;
+}
+
+.section1_description {
+  position: relative;
+  font-size: 10px;
+  z-index: 3;
+  width: 100vw;
+  height: 150vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-azul-inicio.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section2_timeline {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 390vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-pan.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: -3.5rem !important;
+  font-size: 10px;
+}
+
+.section3_end {
+  width: 100vw;
+  height: 55vh;
+  position: relative;
+  top: 128rem !important;
+  z-index: 2;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/final-BIMBO-osito.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.title_chronology {
+  width: 80%;
+}
+
+.title_equivalence {
+  width: 85%;
+}
+
+.title_text {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #0033a0;
+  text-align: center;
+}
