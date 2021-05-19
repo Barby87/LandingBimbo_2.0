@@ -10,12 +10,25 @@
   font-weight: 900;
 }
 
-.bimbo_blue {
+.bimbo_blue-left {
+  max-width: 80%;
+  height: 30vh;
   text-align: center;
-  width: 65%;
-  background-color: #0033a0;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-sin-texto-gorro-a-la-izquierda.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   color: white;
-  border-radius: 15px;
+}
+.bimbo_blue-right {
+  max-width: 80%;
+  height: 30vh;
+  text-align: center;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-sin-texto-gorro-a-la-derecha.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
 }
 
 body {
@@ -24,9 +37,24 @@ body {
   font-size: 0.8rem;
 }
 
+.cronology_container {
+  background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .end_message {
-  width: 95%;
-  margin-bottom: 18rem;
+  max-width: 95%;
+  /* margin-bottom: 18rem; */
+  height: 32vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-verde-sin-texto.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: -4rem;
+  text-align: center;
 }
 
 .figures {
@@ -39,10 +67,14 @@ body {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-bimbo.png");
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-inicial-sin-texto.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: -55px;
+}
+
+.italic_subtitle {
+  font-style: italic;
 }
 
 .section1_description {
@@ -63,16 +95,18 @@ header {
   height: 390vh;
   background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-pan.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 100% 100%;
   margin-top: -3.5rem !important;
   font-size: 10px;
+  padding-bottom: 20rem !important;
 }
 
 .section3_end {
   width: 100vw;
   height: 55vh;
   position: relative;
-  top: 128rem !important;
+  top: 138rem !important;
   z-index: 2;
   background-image: url("assets/img/Materiales_Bimbo-mobile/final-BIMBO-osito.png");
   background-repeat: no-repeat;
@@ -80,16 +114,43 @@ header {
 }
 
 .title_chronology {
-  width: 80%;
+  max-width: 70%;
+  height: 10vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-verde-sin-texto.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: -4rem;
+  text-align: center;
+}
+
+.title_blue {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  display: block;
 }
 
 .title_equivalence {
-  width: 85%;
+  max-width: 95%;
+  /* margin-bottom: 18rem; */
+  height: 38vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-azul-sin-texto.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: -4rem;
+  text-align: center;
 }
 
 .title_text {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: #0033a0;
   text-align: center;
+  margin-right: 0 !important;
 }
