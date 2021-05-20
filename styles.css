@@ -33,9 +33,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  text-align: justify;
   font-size: 0.8rem;
-  /* position: relative; */
 }
 
 .col1_blue {
@@ -48,11 +46,6 @@ body {
   min-width: 80%;
   height: 50%;
 }
-
-/* .col_bimbo_no_padding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-} */
 
 .cronology_container {
   background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
@@ -81,7 +74,7 @@ body {
   color: #0033a0;
 }
 
-.img_bimbo {
+.img_bimbo-start {
   width: 80%;
 }
 
@@ -135,9 +128,17 @@ header {
   z-index: 2;
 }
 
+.start_icon {
+  width: 100%;
+}
+
 .img-end-bimbo {
   width: 100%;
-  transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.row1_blue {
+  text-align: right;
 }
 
 .title_chronology {
