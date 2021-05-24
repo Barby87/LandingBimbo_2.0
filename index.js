@@ -24,8 +24,8 @@ const waypoint = new Waypoint({
 
     anime({
       targets: myObject,
-      cycles1: 163095021,
-      cycles2: 568941,
+      cycles1: Number(163095021),
+      cycles2: Number(568941),
       cycles3: 9641,
       cycles4: 2995,
       cycles5: 2165872878,
@@ -37,14 +37,14 @@ const waypoint = new Waypoint({
       easing: 'linear',
 
       update: function() {
-        logEl1.innerHTML =  myObject.cycles1.toLocaleString('es-ES');
-        logEl2.innerHTML =  myObject.cycles2.toLocaleString('es-ES');
-        logEl3.innerHTML =  myObject.cycles3.toLocaleString('es-ES');
-        logEl4.innerHTML =  myObject.cycles4.toLocaleString('es-ES');
-        logEl5.innerHTML =  myObject.cycles5.toLocaleString('es-ES');
-        logEl6.innerHTML =  myObject.cycles6.toLocaleString('es-ES');
-        logEl7.innerHTML =  myObject.cycles7.toLocaleString('es-ES');
-        logEl8.innerHTML =  myObject.cycles8.toLocaleString('es-ES');
+        logEl1.innerHTML =  myObject.cycles1.toLocaleString('de-DE');
+        logEl2.innerHTML =  myObject.cycles2.toLocaleString('de-DE');
+        logEl3.innerHTML =  myObject.cycles3.toLocaleString('de-DE');
+        logEl4.innerHTML =  myObject.cycles4.toLocaleString('de-DE');
+        logEl5.innerHTML =  myObject.cycles5.toLocaleString('de-DE');
+        logEl6.innerHTML =  myObject.cycles6.toLocaleString('de-DE');
+        logEl7.innerHTML =  myObject.cycles7.toLocaleString('de-DE');
+        logEl8.innerHTML =  myObject.cycles8.toLocaleString('de-DE');
       }
     });
     this.destroy()

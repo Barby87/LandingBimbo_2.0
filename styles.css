@@ -11,8 +11,10 @@
 .battery-log6,
 .battery-log7,
 .battery-log8 {
-  font-size: 16px;
-  font-weight: 900;
+  font-size: 1.2rem;
+  /* font-weight: 900; */
+  font-family: AmsiProCond-Ultra;
+  font-style: 1rem;
 }
 
 .bimbo_blue-left {
@@ -94,19 +96,6 @@ body {
   padding-right: 0;
 }
 
-/* .end_message { */
-/* max-width: 95%;
-  height: 32vh;
-  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-verde-sin-texto.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-size: 1.2rem;
-  font-weight: 900;
-  color: white;
-  margin-bottom: -4rem;
-  text-align: center; */
-/* } */
-
 .end_message-img {
   width: 100%;
 }
@@ -136,11 +125,8 @@ header {
   width: 100vw;
   height: 100vh;
   background-image: url("assets/img/Materiales_Bimbo-mobile/inicio-con-titulo.png");
-  /* background-image: url("assets/img/Materiales_Bimbo-mobile/imagen-inicio-20-05.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* padding-top: 8rem !important; */
-  /* background-image: linear-gradient(left bottom, transparent); */
 }
 
 .italic_subtitle {
@@ -180,13 +166,6 @@ header {
   margin-top: -5rem;
 }
 
-/* .section3_end {
-  width: 100vw;
-  height: 100%;
-  margin-top: 4rem;
-  z-index: 2;
-} */
-
 .section4_web {
   display: none;
 }
@@ -200,19 +179,6 @@ header {
   height: 100%;
 }
 
-/* .title_chronology {
-  max-width: 70%;
-  height: 10vh;
-  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-verde-sin-texto.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-size: 1.2rem;
-  font-weight: 900;
-  color: white;
-  margin-bottom: -4rem;
-  text-align: center;
-} */
-
 .title_chronology-img {
   width: 100%;
 }
@@ -225,16 +191,6 @@ header {
 }
 
 .title_equivalence {
-  /* max-width: 95%;
-  height: 32vh;
-  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-azul-sin-texto.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-size: 1.2rem;
-  font-weight: 900;
-  color: white;
-  margin-bottom: -4rem;
-  text-align: center; */
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
@@ -261,12 +217,9 @@ header {
     background-image: url(assets/img/Materiales_Bimbo-web/fondo-linea-de-tiempo.png);
     background-repeat: no-repeat;
     padding: 0 !important;
-    /* background-size: 27%; */
-    /* height: 120vh; */
     margin-left: 12%;
     display: flex;
     flex-direction: column;
-    /* margin-top: 2rem;*/
   }
 
   .img_cronologia_hoja {
@@ -320,7 +273,6 @@ header {
     width: 35vw;
     height: 10rem;
     background-image: url("assets/img/Materiales_Bimbo-web/fondo-informacion-cronologia.png");
-    /* background-repeat: no-repeat; */
     background-size: 100% 100%;
   }
 
