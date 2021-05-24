@@ -314,9 +314,6 @@ header {
     background-image: url("assets/img/Materiales_Bimbo-web/INICIO-web-21-05.png");
     background-size: center center;
     background-size: cover;
-    /* margin-left: 0 !important;
-    margin-right: 0 !important; */
-    /* padding-bottom: 2rem; */
   }
 
   .info_chronology {
@@ -344,8 +341,13 @@ header {
   }
 
   .section1_wrapper-web {
-    display: flex;
-    height: 125vh;
+    display: block;
+    height: 151vh;
+    width: 100%;
+    background-image: url(assets/img/Materiales_Bimbo-web/nueva-cronologia.png);
+    background-position: center center;
+    background-size: cover;
+    margin-top: -6rem;
   }
 
   .section2_description {
