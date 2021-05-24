@@ -74,6 +74,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
 }
 
 .col1_blue {
@@ -87,10 +89,9 @@ body {
   height: 50%;
 }
 
-.cronology_container {
-  background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
-  background-repeat: no-repeat;
-  background-position: center;
+.container_end-bimbo {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* .end_message { */
@@ -113,7 +114,6 @@ body {
 .figures {
   background: rgba(255, 255, 255, 0.6);
   width: 80%;
-  /* height: 25%; */
   border-radius: 15px;
   color: #0033a0;
 }
@@ -132,17 +132,12 @@ body {
 
 header {
   width: 100vw;
-  height: 100vh;
   background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-inicial-sin-texto.png");
   /* background-image: url("assets/img/Materiales_Bimbo-mobile/imagen-inicio-20-05.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 8rem !important;
-  /* filter: drop-shadow(3px); */
-  /* filter: blur(10px); */
-  /* -moz-box-shadow: inset 0px 0px 3px 1px rgba(255, 255, 255, 0.6);
-  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255, 255, 255, 0.6);
-  box-shadow: inset 0px 0px 3px 1px rgba(255, 255, 255, 0.6); */
+  background-image: linear-gradient(left bottom, transparent);
 }
 
 .italic_subtitle {
@@ -150,8 +145,8 @@ header {
 }
 
 .row {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .section1_timeline {
@@ -160,11 +155,12 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 6rem !important;
+  padding-bottom: 7rem !important;
   background-attachment: fixed;
-  /* margin-top: -5rem; */
-  /* -webkit-box-shadow: 0px 7px 19px 5px #b94e4e; */
-  /* box-shadow: 0px 7px 19px 5px #eb3737; */
+}
+
+.section1_wrapper-web {
+  display: none;
 }
 
 .section2_description {
@@ -176,14 +172,18 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2rem 1rem 5rem 2rem;
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 
-.section3_end {
+/* .section3_end {
   width: 100vw;
   height: 100%;
   margin-top: 4rem;
   z-index: 2;
+} */
+
+.section4_web {
+  display: none;
 }
 
 .start_icon {
@@ -192,12 +192,7 @@ header {
 
 .img-end-bimbo {
   width: 100%;
-  transform: scale(1.05);
 }
-
-/* .row1_blue {
-  text-align: right;
-} */
 
 /* .title_chronology {
   max-width: 70%;
@@ -245,4 +240,140 @@ header {
   color: #0033a0;
   text-align: center;
   margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 449px) {
+  .row-linea-tiempo {
+    padding: 150px;
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .col1_section1-web {
+    width: 50vw;
+    background-image: url(assets/img/Materiales_Bimbo-web/fondo-linea-de-tiempo.png);
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    /* background-size: 27%; */
+    /* height: 120vh; */
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem;*/
+  }
+
+  .img_cronologia_hoja {
+    width: 70%;
+    position: relative;
+    top: -7%;
+    left: -4%;
+  }
+
+  .img_info-cronologia {
+    width: 100%;
+    height: 9rem;
+    background-image: url("assets/img/Materiales_Bimbo-web/fondo-informacion-cronologia.png");
+    background-repeat: no-repeat;
+    margin-right: 0 !important;
+    background-size: 100% 100%;
+  }
+
+  .img-linea-tiempo {
+    width: 23%;
+    margin-left: 17%;
+    margin-top: -4rem;
+  }
+
+  .info_cronologia-container {
+    width: 50vw;
+    margin-left: -19rem;
+  }
+
+  .row-linea-tiempo {
+    padding: 0;
+    background-color: blue;
+  }
+
+  .cronology_container {
+    background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  header {
+    width: 100vw;
+    height: 116vh;
+    background-image: url("assets/img/Materiales_Bimbo-web/INICIO-web-21-05.png");
+    background-size: 100% 103%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* padding-bottom: 2rem; */
+  }
+
+  .info_chronology {
+    width: 35vw;
+    height: 10rem;
+    background-image: url("assets/img/Materiales_Bimbo-web/fondo-informacion-cronologia.png");
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+  }
+
+  .info_chronology-p {
+    padding: 3.5rem 7rem 1rem 3rem;
+  }
+
+  .section1_timeline {
+    background-image: none;
+    justify-content: flex-start !important;
+    padding-bottom: 0 !important;
+  }
+
+  .start-container,
+  .section1_wrapper-mobile {
+    display: none !important;
+  }
+
+  .section1_wrapper-web {
+    display: flex;
+    height: 125vh;
+  }
+
+  .section2_description {
+    width: 100%;
+    background-image: url("assets/img/Materiales_Bimbo-web/fondo-equivalencias.png");
+    background-size: cover;
+    margin-top: -9rem;
+    height: 85vh;
+  }
+
+  .section2_wrapper-mobile {
+    display: none;
+  }
+
+  .section3_wrapper-mobile {
+    display: none;
+  }
+  .section3_end {
+    position: relative;
+    z-index: 3;
+    margin-top: -6rem;
+    width: 100%;
+    height: 158vh;
+    background-image: url("assets/img/Materiales_Bimbo-web/acuerdo-de-provision-de-energia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section4_web {
+    position: relative;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 115vh;
+    background-image: url("assets/img/Materiales_Bimbo-web/fondo-final,-iniciativas-ideal.png");
+    background-repeat: no-repeat;
+    margin-top: -7rem;
+    background-size: contain;
+  }
 }

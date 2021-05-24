@@ -29,8 +29,8 @@
     <title>Ideal Sustentable</title>
   </head>
   <body>
-    <header PB-3>
-      <div class="row p-3">
+    <header class="container-fluid">
+      <div class="row p-3 d-flex justify-content-center start-container">
         <div class="col d-flex justify-content-center">
           <img
             src="./assets/img/Materiales_Bimbo-mobile/imagen-osito-inicio-sin-fondo.png"
@@ -40,18 +40,28 @@
         </div>
       </div>
 
-      <div class="container row d-flex justify-content-center">
-        <div class="col">
-          <h1 class="title_text">
-            CONOCE EL RECORRIDO DE IDEAL PARA TENER EL 100% DE ENERGÍA RENOVABLE
-            EN CHILE
-          </h1>
+      <div class="container d-flex justify-content-center pb-5 start-container">
+        <div class="row">
+          <div class="col">
+            <h1 class="title_text">
+              CONOCE EL RECORRIDO DE IDEAL PARA TENER EL 100% DE ENERGÍA
+              RENOVABLE EN CHILE
+            </h1>
+          </div>
         </div>
       </div>
     </header>
 
-    <section class="container d-flex justify-content-center section1_timeline">
-      <div class="row d-flex justify-content-center align-items-center">
+    <section class="container section1_timeline">
+      <div
+        class="
+          row
+          d-flex
+          justify-content-center
+          align-items-center
+          section1_wrapper-mobile
+        "
+      >
         <div class="row d-flex justify-content-center mt-4">
           <div
             class="
@@ -71,103 +81,6 @@
             />
           </div>
         </div>
-
-        <!-- <div
-          class="
-            d-flex
-            justify-content-center
-            container
-            row
-            bimbo_blue
-            m-4
-            pt-3
-          "
-        >
-          <div class="col bimbo_blue_col1">
-            <p>
-              Grupo BIMBO se adhiere al "RE-100". Donde se compromete a utilizar
-              el 100% de energía eléctrica limpia en sus operaciones para el año
-              2025.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            d-flex
-            justify-content-center
-            container
-            row
-            bimbo_blue
-            m-4
-            pt-3
-          "
-        >
-          <div class="col bimbo_blue_col1">
-            <p>
-              IDEAL inaugura el techo solar en la nave más grande de Sudamérica
-              en su planta de Quilicura.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            d-flex
-            justify-content-center
-            container
-            row
-            bimbo_blue
-            m-4
-            pt-3
-          "
-        >
-          <div class="col bimbo_blue_col1">
-            <p>
-              Se instala el segundo sistema de paneles solares en la planta de
-              Nutrabien en Talagante.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            d-flex
-            justify-content-center
-            container
-            row
-            bimbo_blue
-            m-4
-            pt-3
-          "
-        >
-          <div class="col bimbo_blue_col1">
-            <p>
-              Ideal realiza un acuerdo (PPA Green) que permitirá complementar la
-              energía necesaria para la producción actual y futura de IDEAL (15
-              GWatts hora al año).
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            d-flex
-            justify-content-center
-            container
-            row
-            bimbo_blue
-            m-4
-            pt-3
-          "
-        >
-          <div class="col bimbo_blue_col1">
-            <p>
-              Se inaugurará la Planta de Ideal de Chillán, la que también se
-              abastecerá de energía eólica y solar.
-            </p>
-          </div>
-        </div> -->
 
         <div class="row d-flex justify-content-center mb-4">
           <div class="row d-flex cronology_container justify-content-center">
@@ -202,7 +115,7 @@
           <div class="row d-flex cronology_container justify-content-center">
             <div class="col bimbo_blue-right3 d-flex align-items-center">
               <div class="row mt-4 d-flex justify-content-center">
-                <div class="col-12 col1_blue"></div>
+                <div class="col-12 col1_blue pb-3"></div>
                 <div class="col-12 col2_blue mt-5 py-5">
                   <p>
                     Se instala el segundo sistema de paneles solares en la
@@ -231,7 +144,7 @@
           <div class="row d-flex cronology_container justify-content-center">
             <div class="col bimbo_blue-right5 d-flex align-items-center">
               <div class="row mt-4 d-flex justify-content-center">
-                <div class="col-12 col1_blue start-waypoint"></div>
+                <div class="col-12 col1_blue pb-4 start-waypoint"></div>
                 <div class="col-12 col2_blue mt-5 py-5">
                   <p>
                     Se inaugurará la Planta de Ideal de Chillán, la que también
@@ -372,174 +285,268 @@
           </div>
         </div>
       </div>
+      <!-- <div class="row">
+        <div class="col">
+
+        </div>
+      </div> -->
+
+      <div class="row section1_wrapper-web">
+        <div class="col col1_section1-web">
+          <img
+            class="img_cronologia_hoja"
+            src="./assets/img/Materiales_Bimbo-web/titulo-cronologia.png"
+            alt=""
+          />
+          <img
+            class="img-linea-tiempo"
+            src="./assets/img/Materiales_Bimbo-web/años-linea-de-tiempo.png"
+            alt="Imagen Línea de Tiempo"
+          />
+        </div>
+        <!-- <div class="row"> -->
+        <div class="col pt-5 mt-5 info_cronologia-container">
+          <div class="img_info-cronologia">
+            <p class="text-white info_chronology-p">
+              Grupo BIMBO se adhiere al "RE-100". Donde se compromete a utilizar
+              el 100% de energía eléctrica limpia en sus operaciones para el año
+              2025.
+            </p>
+          </div>
+
+          <div class="img_info-cronologia">
+            <p class="text-white info_chronology-p">
+              IDEAL inaugura el techo solar en una nave más grande de Sudamérica
+              2019 en su planta de Quilicura.
+            </p>
+          </div>
+
+          <div class="img_info-cronologia">
+            <p class="text-white info_chronology-p">
+              Se instala el segundo sistema de paneles solares en la planta de
+              Nutrabien en Talagante.
+            </p>
+          </div>
+
+          <div class="img_info-cronologia">
+            <p class="text-white info_chronology-p">
+              Ideal realiza un acuerdo (PPA Green) que permitirá complementar la
+              energía necesaria para la producción actual y futura de IDEAL (15
+              GWatts hora al año).
+            </p>
+          </div>
+
+          <div class="img_info-cronologia">
+            <p class="text-white info_chronology-p">
+              Se inaugurará la Planta de Ideal de Chillán la que también se
+              abastecerá de energía eólica y solar.
+            </p>
+          </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="col-9">
+            <div class="row">
+              <div class="col info_chronology"></div>
+            </div>
+            <div class="row">
+              <div class="col info_chronology"></div>
+            </div>
+            <div class="row">
+              <div class="col info_chronology"></div>
+            </div>
+            <div class="row">
+              <div class="col info_chronology"></div>
+            </div>
+            <div class="row">
+              <div class="col info_chronology"></div>
+            </div>
+          </div> -->
+        <!-- <div class="col-7">hola</div> -->
+      </div>
     </section>
 
     <section class="text-white section2_description">
-      <div class="row pt-5 pb-4">
-        <div class="container row d-flex justify-content-center">
-          <div class="col">
-            <h1 class="title_text text-white">
-              ¿DE QUE TRATA EL ACUERDO DE PROVISIÓN DE ENERGÍA 100% RENOVABLE?
-            </h1>
+      <div class="section2_wrapper-mobile">
+        <div class="row pt-5 pb-4">
+          <div class="container row d-flex justify-content-center">
+            <div class="col">
+              <h1 class="title_text text-white">
+                ¿DE QUE TRATA EL ACUERDO DE PROVISIÓN DE ENERGÍA 100% RENOVABLE?
+              </h1>
+            </div>
+          </div>
+          <div
+            class="
+              col
+              section1_description__image
+              d-flex
+              justify-content-center
+            "
+          >
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/mundo-inicio.png"
+              alt="Mundo Inicio"
+              class="img_world"
+            />
           </div>
         </div>
-        <div
-          class="col section1_description__image d-flex justify-content-center"
-        >
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/mundo-inicio.png"
-            alt="Mundo Inicio"
-            class="img_world"
-          />
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-1.png"
+              alt="Ícono 1 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              El acuerdo consiste en un PPA Green de 15 Gwh/año por un período
+              de
+              <strong>4 años con Engie</strong>, a través de la energía
+              proveniente del sistema eléctrico nacional.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-2.png"
+              alt="Ícono 2 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              La energía abastecerá a <strong>3 plantas</strong> de Ideal
+              ubicadas en Quilicura, Talagante y próximamente en Chillán (a
+              fines del 2021).
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-3.png"
+              alt="Ícono 3 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              Con esto, IDEAL deja a Chile como uno de los
+              <strong>5 países de Grupo Bimbo</strong> (de un total de 33) que
+              se adelanta en 4 años el RE-100.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-4.png"
+              alt="Ícono 4 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              Este acuerdo cuenta con certificación I-REC. Acreditación
+              internacional recomendada en el Protocolo de Gases de Efecto
+              Invernadero (GHG-Greenhouse Gas).
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-5.png"
+              alt="Ícono 5 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              El suministro partió el 1 de abril para dos primeras plantas y
+              abastecerá a la tercera planta en Chillán cuando ésta inicie
+              operaciones.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-6.png"
+              alt="Ícono 6 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              Gracias al sistema de abastecimiento solar privado más grande de
+              Sudamérica en nuestra Planta de Quilicura, formado por 6.444
+              paneles fotovoltaicos que generan aproximadamente una energía de
+              3,0 Giga watts hora anuales y a través del acuerdo de compra de
+              energía limpia (PPA Green) con Engie, con el cual se generan 15 GW
+              al año, nuestra producción funcionará gracias a energías
+              renovables.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 d-flex justify-content-center align-items-center">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-7.png"
+              alt="Ícono 7 inicio"
+              class="start_icon"
+            />
+          </div>
+          <div class="col-9">
+            <p>
+              El suministro de energía verde permitirá mitigar 6 mil toneladas
+              de CO2 por año, el equivalente a plantar 12 mil árboles.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-1.png"
-            alt="Ícono 1 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            El acuerdo consiste en un PPA Green de 15 Gwh/año por un período de
-            <strong>4 años con Engie</strong>, a través de la energía
-            proveniente del sistema eléctrico nacional.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-2.png"
-            alt="Ícono 2 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            La energía abastecerá a <strong>3 plantas</strong> de Ideal ubicadas
-            en Quilicura, Talagante y próximamente en Chillán (a fines del
-            2021).
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-3.png"
-            alt="Ícono 3 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            Con esto, IDEAL deja a Chile como uno de los
-            <strong>5 países de Grupo Bimbo</strong> (de un total de 33) que se
-            adelanta en 4 años el RE-100.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-4.png"
-            alt="Ícono 4 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            Este acuerdo cuenta con certificación I-REC. Acreditación
-            internacional recomendada en el Protocolo de Gases de Efecto
-            Invernadero (GHG-Greenhouse Gas).
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-5.png"
-            alt="Ícono 5 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            El suministro partió el 1 de abril para dos primeras plantas y
-            abastecerá a la tercera planta en Chillán cuando ésta inicie
-            operaciones.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-6.png"
-            alt="Ícono 6 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            Gracias al sistema de abastecimiento solar privado más grande de
-            Sudamérica en nuestra Planta de Quilicura, formado por 6.444 paneles
-            fotovoltaicos que generan aproximadamente una energía de 3,0 Giga
-            watts hora anuales y a través del acuerdo de compra de energía
-            limpia (PPA Green) con Engie, con el cual se generan 15 GW al año,
-            nuestra producción funcionará gracias a energías renovables.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iconos_inicio/icono-7.png"
-            alt="Ícono 7 inicio"
-            class="start_icon"
-          />
-        </div>
-        <div class="col-9">
-          <p>
-            El suministro de energía verde permitirá mitigar 6 mil toneladas de
-            CO2 por año, el equivalente a plantar 12 mil árboles.
-          </p>
-        </div>
-      </div>
+      <div class="section2_wrapper-web"></div>
     </section>
 
-    <section>
-      <div class="row my-4 d-flex justify-content-center">
-        <div
-          class="
-            col
-            d-flex
-            justify-content-center
-            align-items-center
-            end_message
-          "
-        >
-          <!-- <span class="py-5 px-4"
-            >PPA + BIMBO SOLAR CHILE = 100% ENERGÍA RENOVABLE EN CHILE</span
-          > -->
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/iniciativas-ideal.png"
-            alt="Imagen mensaje final"
-            class="end_message-img"
-          />
+    <section class="section3_end">
+      <div class="section3_wrapper-mobile">
+        <div class="row my-4 d-flex justify-content-center">
+          <div
+            class="
+              col
+              d-flex
+              justify-content-center
+              align-items-center
+              end_message
+            "
+          >
+            <!-- <span class="py-5 px-4"
+              >PPA + BIMBO SOLAR CHILE = 100% ENERGÍA RENOVABLE EN CHILE</span
+            > -->
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/iniciativas-ideal.png"
+              alt="Imagen mensaje final"
+              class="end_message-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center container_end-bimbo">
+            <img
+              src="./assets/img/Materiales_Bimbo-mobile/imagen-final.png"
+              alt="Imagen final Bimbo"
+              class="img-end-bimbo"
+            />
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <img
-            src="./assets/img/Materiales_Bimbo-mobile/imagen-final.png"
-            alt="Imagen final Bimbo"
-            class="img-end-bimbo"
-          />
-        </div>
-      </div>
+
+      <div class="section3_wrapper-web"></div>
     </section>
+
+    <section class="section4_web"></section>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
