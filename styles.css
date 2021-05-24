@@ -131,13 +131,16 @@ body {
 }
 
 header {
+  position: relative;
+  z-index: 1;
   width: 100vw;
-  background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-inicial-sin-texto.png");
+  height: 100vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/inicio-con-titulo.png");
   /* background-image: url("assets/img/Materiales_Bimbo-mobile/imagen-inicio-20-05.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 8rem !important;
-  background-image: linear-gradient(left bottom, transparent);
+  /* padding-top: 8rem !important; */
+  /* background-image: linear-gradient(left bottom, transparent); */
 }
 
 .italic_subtitle {
@@ -151,6 +154,8 @@ header {
 
 .section1_timeline {
   width: 100vw;
+  z-index: 3;
+  margin-top: -6rem;
   background-image: url("assets/img/Materiales_Bimbo-mobile/fondo-pan.png");
   background-repeat: no-repeat;
   background-position: center;
