@@ -12,7 +12,6 @@
 .battery-log7,
 .battery-log8 {
   font-size: 1.2rem;
-  /* font-weight: 900; */
   font-family: AmsiProCond-Ultra;
   font-style: 1rem;
 }
@@ -96,6 +95,12 @@ body {
   padding-right: 0;
 }
 
+.cronology_container {
+  background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .end_message-img {
   width: 100%;
 }
@@ -126,7 +131,8 @@ header {
   height: 100vh;
   background-image: url("assets/img/Materiales_Bimbo-mobile/inicio-con-titulo.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .italic_subtitle {
@@ -204,13 +210,6 @@ header {
   margin-right: 0 !important;
 }
 
-@media only screen and (max-width: 449px) {
-  .row-linea-tiempo {
-    padding: 150px;
-    background-color: red;
-  }
-}
-
 @media only screen and (min-width: 450px) {
   .col1_section1-web {
     width: 50vw;
@@ -253,12 +252,6 @@ header {
   .row-linea-tiempo {
     padding: 0;
     background-color: blue;
-  }
-
-  .cronology_container {
-    background-image: url("assets/img/Materiales_Bimbo-mobile/Franja-Blanca-linea-de-tiempo.png");
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   header {
