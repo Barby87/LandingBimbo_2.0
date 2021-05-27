@@ -172,6 +172,17 @@ header {
   margin-top: -5rem;
 }
 
+.section3_wrapper-mobile {
+  /* position: relative; */
+  /* z-index: 1; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/img/Materiales_Bimbo-mobile/imagen-final1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: -5rem;
+}
+
 .section4_web {
   display: none;
 }
@@ -204,7 +215,6 @@ header {
 .title_text {
   font-family: AmsiProCond-Ultra;
   font-size: 1.4rem;
-  /* font-weight: 900; */
   color: #0033a0;
   text-align: center;
   margin-right: 0 !important;
