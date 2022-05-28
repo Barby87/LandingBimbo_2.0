@@ -170,25 +170,35 @@ header {
   margin-top: -5rem;
 }
 
-.section3_wrapper-mobile {
-  /* position: relative; */
-  /* z-index: 1; */
+.section5_mobile {
   width: 100vw;
   height: 90vh;
   background-image: url("assets/img/Materiales_Bimbo-mobile/imagen-final1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: block;
   margin-top: -5rem;
   margin-bottom: 0 !important;
 }
 
-.section4_web {
+.section5_web {
   display: none;
+}
+
+.section5_agreement, .section6_info, .section3_equivalencies {
+  display: none!important;
 }
 
 .start_icon {
   width: 100%;
+}
+
+.title_blue {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  display: block;
 }
 
 .img-end-bimbo {
@@ -198,13 +208,6 @@ header {
 
 .title_chronology-img {
   width: 100%;
-}
-
-.title_blue {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: white;
-  display: block;
 }
 
 .title_equivalence {
@@ -225,7 +228,7 @@ header {
     width: 50vw;
     background-image: url(assets/img/Materiales_Bimbo-web/fondo-linea-de-tiempo.png);
     background-repeat: no-repeat;
-    padding: 0 !important;
+    padding: 0!important;
     margin-left: 12%;
     display: flex;
     flex-direction: column;
@@ -306,41 +309,123 @@ header {
   }
 
   .section2_description {
-    width: 100%;
     background-image: url("assets/img/Materiales_Bimbo-web/fondo-equivalencias.png");
-    background-size: cover;
+    background-size: contain;
+    height: 50rem;
     margin-top: -9rem;
-    height: 85vh;
+    width: 100%;
   }
 
   .section2_wrapper-mobile {
     display: none;
   }
 
-  .section3_wrapper-mobile {
+  .section3_equivalencies {
+    background-image: url("assets/img/Materiales_Bimbo-web/equivalencies.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block!important;
+    height: 50rem;
+    width: 100%;
+  }
+
+  .section4_responsability {
+    background-image: url("assets/img/Materiales_Bimbo-web/responsability.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block!important;
+    height: 50rem;
+    margin-top: -60px;
+    width: 100%;
+  }
+
+  .section5_mobile {
     display: none;
   }
-  .section3_end {
-    position: relative;
-    z-index: 3;
-    margin-top: -6rem;
-    width: 100%;
-    height: 158vh;
+
+  .section5_agreement {
     background-image: url("assets/img/Materiales_Bimbo-web/acuerdo-de-provision-de-energia.png");
     background-size: cover;
     background-repeat: no-repeat;
+    display: block!important;
+    height: 158vh;
+    margin-top: -2rem;
+    position: relative;
+    width: 100%;
+    z-index: 3;
   }
 
-  .section4_web {
-    position: relative;
-    z-index: 3;
-    display: block;
-    height: 110vh;
+  .section6__frame {
+    width: 100%;
+  }
+
+  .section6__frame_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .section6_img1, .section6_img2, .section6_img3 {
+    width: 100%;
+  }
+
+  .section6_img1_wrapper, .section6_img3_wrapper {
+    align-self: self-end;
+  }
+
+  .section6_img1_wrapper, .section6_img3_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section6_info {
+    align-items: center;
+    display: flex!important;
+    flex-direction: column;
+    height: 90rem;
+    padding-top: 2rem
+  }
+
+  .section6__steps_wrapper {
+    justify-content: center;
+    justify-self: center;
+    height: 30%;
+    margin-top: 4rem;
+    width: 50%;
+  }
+
+  .section6_title {
+    color: #0033a0;
+    font-family: AmsiProCond-Ultra;
+    text-align: center;
+  }
+
+  .section6__title1_wrapper {
+    width: 45%;
+  }
+
+  .section6__title2_wrapper {
+    color: #39A934;
+    display: flex;
+    font-family: AmsiProCond-Ultra;
+    justify-content: center;
+    padding: 3rem; 
+    text-align: center;
+    width: 45%;
+  }
+
+  .section5_web {
     background-image: url("assets/img/Materiales_Bimbo-web/fondo-final-iniciativas-ideal.png");
     background-repeat: no-repeat;
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
     background-position: center center;
     background-size: cover;
+    display: block;
+    height: 110vh;
     padding-top: 3rem;
+    position: relative;
+    z-index: 3;
   }
 }
+
+ 
