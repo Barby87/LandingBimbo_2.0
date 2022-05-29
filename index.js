@@ -4,6 +4,8 @@ const logEl3 = document.querySelector('.battery-log3');
 const logEl4 = document.querySelector('.battery-log4');
 const logEl5 = document.querySelector('.battery-log5');
 const logEl6 = document.querySelector('.battery-log6');
+const logEl7 = document.querySelector('.battery-log7');
+const logEl8 = document.querySelector('.battery-log8');
 
 const waypoint = new Waypoint({
   element: document.getElementsByClassName('start-waypoint')[0],
@@ -16,18 +18,20 @@ const waypoint = new Waypoint({
       cycles4: 0,
       cycles5: 0,
       cycles6: 0,
-      // cycles7: 0,
-      // cycles8: 0
+      cycles7: 0,
+      cycles8: 0
     }
 
     anime({
       targets: myObject,
       cycles1: 163095021,
-      cycles2: 9641,
-      cycles3: 2995,
-      cycles4: 13674,
-      cycles5: 12577,
-      cycles6: 2435465,
+      cycles2: 568941,
+      cycles3: 9641,
+      cycles4: 2995,
+      cycles5: 2169872878,
+      cycles6: 13674,
+      cycles7: 12577,
+      cycles8: 2435465,
       round: 1,
       duration: 2000,
       easing: 'linear',
@@ -39,6 +43,8 @@ const waypoint = new Waypoint({
         logEl4.innerHTML =  myObject.cycles4.toLocaleString('de-DE');
         logEl5.innerHTML =  myObject.cycles5.toLocaleString('de-DE');
         logEl6.innerHTML =  myObject.cycles6.toLocaleString('de-DE');
+        logEl7.innerHTML =  myObject.cycles7.toLocaleString('de-DE');
+        logEl8.innerHTML =  myObject.cycles8.toLocaleString('de-DE');
       }
     });
     this.destroy()
