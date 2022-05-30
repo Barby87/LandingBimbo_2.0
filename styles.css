@@ -227,7 +227,7 @@ header {
 }
 
 .section2_responsability-img {
-  width: -webkit-fill-available;
+  transform: scale(1);
 }
 
 .section2__responsability-text {
@@ -294,7 +294,7 @@ header {
 @media only screen and (max-width: 575px)  {
 
   .equivalencies_families_img {
-    width: -webkit-fill-available;;
+    transform: scale(1);
   }
 
   .footer_mobile-img1 {
