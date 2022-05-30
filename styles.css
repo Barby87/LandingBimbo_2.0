@@ -118,8 +118,8 @@ body {
   transform: scale(0.8);
 }
 .eco__wash_wrapper, .equivalencies__families_wrapper {
-  display: flex!important;
-  flex-direction: column!important;
+  display: flex;
+  flex-direction: column;
 }
 
 .ecowash_text {
@@ -210,6 +210,11 @@ header {
   display: block;
   height: 45rem;
   padding: 2rem;
+}
+
+.section2_responsability_img-container {
+  display: flex;
+  flex-direction: column; 
 }
 
 .section2__responsability_img-wrapper {
@@ -320,6 +325,16 @@ header {
 
   .section6__frame  {
     transform: scale(0.8);
+  }
+
+  .section6__frame_wrapper-desktop {
+    display: none;
+  }
+
+  .section6__frame_wrapper-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .section6_img1-mobile, .section6_img2-mobile {
@@ -519,10 +534,14 @@ header {
     width: 100%;
   }
 
-  .section6__frame_wrapper {
+  .section6__frame_wrapper-desktop {
     display: flex;
     justify-content: space-between;
     width: 80%;
+  }
+
+  .section6__frame_wrapper-mobile {
+    display: none;
   }
 
   .section6_img1, .section6_img2, .section6_img3 {
