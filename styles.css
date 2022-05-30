@@ -122,10 +122,8 @@ body {
   flex-direction: column!important;
 }
 
-.ecowash_text-strong {
-  font-family: AmsiProCond-Ultra;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+.ecowash_text {
+  font-size: 17px;
 }
 
 .ecowash_text {
@@ -224,7 +222,7 @@ header {
 }
 
 .section2_responsability-img {
-  transform: scale(1.2)
+  width: -webkit-fill-available;
 }
 
 .section2_responsability_img-wrapper {
@@ -236,7 +234,7 @@ header {
 }
 
 .section2__title_img {
-  transform: scale(1.6)
+  width: inherit;
 }
 
 /* .section5_mobile {
@@ -294,8 +292,12 @@ header {
 
 @media only screen and (max-width: 450px)  {
 
+  .equivalencies_families_img {
+    width: -webkit-fill-available;;
+  }
+
   .footer_mobile-img1 {
-    width: 80%;
+    width: -webkit-fill-available;
   }
 
   .footer__mobile_img1-wrapper {
@@ -332,6 +334,7 @@ header {
     display: flex;
     justify-content: center;
     height: 35rem;
+    margin-top: -4rem;
   }
 
   .section6__steps_wrapper-desktop {
@@ -363,6 +366,7 @@ header {
   .section6__title2_wrapper-mobile {
     display: block;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }  
 
   .section6__title1_wrapper-title1 {
