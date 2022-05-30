@@ -230,10 +230,6 @@ header {
   width: -webkit-fill-available;
 }
 
-.section2_responsability_img-wrapper {
-  padding: 1rem 0;
-}
-
 .section2__responsability-text {
   color: #0033a0;
 }
@@ -318,6 +314,17 @@ header {
   .section2__responsability-img {
     width: -webkit-fill-available;
   }
+
+  .section2_responsability_img-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .section4_responsability {
+    display: none;
+  }
+  
 
   .section6_img1, .section6_img2, .section6_img3 {
     transform: scale(0.4)!important;
