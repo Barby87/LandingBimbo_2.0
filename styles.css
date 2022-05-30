@@ -295,7 +295,7 @@ header {
   margin-right: 0 !important;
 }
 
-@media only screen and (max-width: 450px)  {
+@media only screen and (max-width: 575px)  {
 
   .equivalencies_families_img {
     width: -webkit-fill-available;;
@@ -390,7 +390,7 @@ header {
 
 }
 
-@media only screen and (min-width: 451px) {
+@media only screen and (min-width: 576px) {
   .col1_section1-web {
     width: 50vw;
     background-image: url(assets/img/Materiales_Bimbo-web/fondo-linea-de-tiempo.png);
